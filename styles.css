@@ -1,0 +1,17 @@
+.container-1, .footer {
+    background-color: #1f2937;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.header {
+    display: flex;
+}
