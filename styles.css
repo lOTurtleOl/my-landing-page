@@ -8,10 +8,90 @@ img {
 }
 
 .logo img {
-    width: 100px;
+    width: 150px;
     height: auto;
 }
 
-.header {
+.header-1 {
     display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    padding-bottom: 0;
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    }
+
+li {
+    margin: 2em;
+    list-style: none;  
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: hotpink;
+}
+
+a.visited {
+    color: lightsalmon;
+}
+
+a:hover {
+    color: cyan;
+}
+
+.content-1 {
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+    padding-top: 0;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+p1, li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content-1 div {
+    max-width: 500px;
+    margin-right: 400px;
+}
+
+div div {
+    margin-top: 1em;
+}
+
+button1 {
+    padding: 8px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+.container-2 {
+
+}
+
+h2 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 0;
 }
