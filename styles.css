@@ -53,6 +53,10 @@ a:hover {
     padding-top: 0;
 }
 
+.content-1 div {
+    margin-top: 0;
+}
+
 h1 {
     color: #f9faf8;
     font-size: 48px;
@@ -120,7 +124,7 @@ quote {
     font-weight: light;
     font-style: italic;
     color: #1f2937;
-    width: 40%;
+    width: 30%;
 }
 
 .source {
@@ -136,6 +140,42 @@ quote {
     height: 300px;
 }
 
-.container-4 div {
-    
+.call-to-action {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.text-2 {
+    padding-left: 4em;
+    margin-bottom: 10px;
+    color: #f9faf8;
+}
+
+h3 {
+    margin-bottom: 0px;
+}
+
+.text-2 p {
+    margin-top: 8px;
+}
+
+button2 {
+    display: flex;
+    align-items: center;
+    margin-right: 6em;
+    margin-left: auto;
+    border-style: solid;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
