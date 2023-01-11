@@ -93,5 +93,49 @@ h2 {
 .pictures {
     display: flex;
     justify-content: space-around;
-    flex-grow: 0;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+.text p {
+    width: 250px;
+}
+
+.container-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-right: 2em;
+}
+
+quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    width: 40%;
+}
+
+.source {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.container-4 div {
+    
 }
