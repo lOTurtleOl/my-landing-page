@@ -49,18 +49,26 @@ a:hover {
 .content-1 {
     display: flex;
     justify-content: center;
-    padding: 4em;
+    padding-left: 4em;
+    padding-bottom: 4em;
     padding-top: 0;
+    margin-top: 0;
+}
+
+.button {
+    margin-top: 12px;
 }
 
 .content-1 div {
-    margin-top: 0;
+    margin-top: 1.5em;
 }
 
 h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 p1, li {
@@ -73,9 +81,7 @@ p1, li {
     margin-right: 400px;
 }
 
-div div {
-    margin-top: 1em;
-}
+
 
 button1 {
     padding: 8px;
@@ -115,7 +121,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 250px
 }
 
 quote {
